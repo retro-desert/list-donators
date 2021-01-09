@@ -4,7 +4,7 @@ import json
 infura_url = "https://rinkeby.infura.io/" # Input your own API
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
-contract_address = "0x4127d3839458Abe58C5387E9D19869d198fbe840" # Input your own address
+contract_address = "" # Input your own address
 contract_abi = [
 	{
 		"stateMutability": "payable",
